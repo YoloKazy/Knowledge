@@ -1,0 +1,16 @@
+body {
+	background: darkgrey;
+	color: white;
+	padding: 1em;
+	width: 500px;
+	margin: auto;
+	font-size: 12px;
+}
+
+.message{display:block;}
+.message.izquierda{text-align:left;}
+.message.izquierda div{width:200px;background:yellow;padding:1em; border-radius:5px;}
+
+.message.derecha{text-align:right;}
+.message.derecha div{width:200px;background:grey;padding:1em; border-radius:5px;}
+.error{color:red;}

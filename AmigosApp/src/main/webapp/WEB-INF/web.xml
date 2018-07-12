@@ -1,0 +1,16 @@
+<web-app>
+  <display-name>Lista Amigos</display-name>
+  <servlet>
+  	<description>
+  	</description>
+  	<display-name>AddUserServlet</display-name>
+  	<servlet-name>AddUserServlet</servlet-name>
+  	<servlet-class>com.ricardo.controllers.AddUserServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>AddUserServlet</servlet-name>
+  	<url-pattern>/AddUserServlet</url-pattern>
+  </servlet-mapping>
+  
+  
+</web-app>

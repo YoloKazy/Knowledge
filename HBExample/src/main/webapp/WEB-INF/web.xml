@@ -1,0 +1,24 @@
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>AddEmployeeServlet</servlet-name>
+  	<display-name>AddEmployeeServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.ricardo.controllers.AddEmployeeServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<description>
+  	</description>
+  	<display-name>ListEmployeesServlet</display-name>
+  	<servlet-name>ListEmployeesServlet</servlet-name>
+  	<servlet-class>com.ricardo.controllers.ListEmployeesServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>AddEmployeeServlet</servlet-name>
+  	<url-pattern>/AddEmployeeServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>ListEmployeesServlet</servlet-name>
+  	<url-pattern>/ListEmployeesServlet</url-pattern>
+  </servlet-mapping>
+</web-app>

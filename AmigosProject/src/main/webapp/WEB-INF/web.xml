@@ -1,0 +1,16 @@
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<description>
+  	</description>
+  	<display-name>AnadirServlet</display-name>
+  	<servlet-name>AnadirServlet</servlet-name>
+  	<servlet-class>com.rita.controllers.AnadirServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>AnadirServlet</servlet-name>
+  	<url-pattern>/AnadirServlet</url-pattern>
+  </servlet-mapping>
+ 
+</web-app>

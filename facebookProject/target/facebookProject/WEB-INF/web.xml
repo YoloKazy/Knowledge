@@ -1,0 +1,24 @@
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  
+  <servlet>
+  	<servlet-name>LoginSvlt</servlet-name>
+  	<servlet-class>com.ricardo.controladores.LoginServlet</servlet-class>
+  </servlet>
+  
+  <servlet>
+  	<servlet-name>LogoutSvlt</servlet-name>
+  	<servlet-class>com.ricardo.controladores.LogoutServlet</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>LoginSvlt</servlet-name>
+  	<url-pattern>/login</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+  	<servlet-name>LogoutSvlt</servlet-name>
+  	<url-pattern>/logout</url-pattern>
+  </servlet-mapping>
+  
+</web-app>

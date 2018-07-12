@@ -1,0 +1,21 @@
+
+.estrella{
+	display: inline;
+	padding:10px;
+	background-size: contain;
+	color: black;
+}
+.lista_estrella{
+	display: inline-block;
+	direction:rtl;
+}
+
+.estrella.punto{
+	color: orange;
+}
+
+
+
+.estrella.punto ~ .estrella{
+	color: orange;
+}

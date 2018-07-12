@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC
+          "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+          "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+	<class name="com.ricardo.models.Unit" table="unidad">
+		<id name="uid">
+			<generator class="identity"></generator>
+		</id>
+		<property name="name" column="nombre"></property>
+		<property name="budget" column="presupuesto" ></property>
+		<one-to-one name="address" class="com.ricardo.models.Address"  cascade="save-update" />
+				
+	</class>
+
+</hibernate-mapping>

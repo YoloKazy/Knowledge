@@ -1,0 +1,46 @@
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>CiudadesListServlet</servlet-name>
+  	<display-name>CiudadesListServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.ricardo.cotrollers.CiudadesListServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<description>
+  	</description>
+  	<display-name>EditCityServlet</display-name>
+  	<servlet-name>EditCityServlet</servlet-name>
+  	<servlet-class>com.ricardo.cotrollers.EditCityServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<description>
+  	</description>
+  	<display-name>NewCityServlet</display-name>
+  	<servlet-name>NewCityServlet</servlet-name>
+  	<servlet-class>com.ricardo.cotrollers.NewCityServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<description>
+  	</description>
+  	<display-name>ListaPaisesServlet</display-name>
+  	<servlet-name>ListaPaisesServlet</servlet-name>
+  	<servlet-class>com.ricardo.cotrollers.ListaPaisesServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>CiudadesListServlet</servlet-name>
+  	<url-pattern>/CiudadesListServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>EditCityServlet</servlet-name>
+  	<url-pattern>/EditCityServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>NewCityServlet</servlet-name>
+  	<url-pattern>/NewCityServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>ListaPaisesServlet</servlet-name>
+  	<url-pattern>/ListaPaisesServlet</url-pattern>
+  </servlet-mapping>
+</web-app>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Context>
+<Context>
+    <!-- Specify a JDBC datasource -->
+    <Resource name="jdbc/worlddb" auth="Container"
+        type="javax.sql.DataSource" username="uworld" password="passworld"
+        driverClassName="com.mysql.jdbc.Driver"
+        url="jdbc:mysql://localhost/world?SSL=false"
+        maxActive="10" maxIdle="4" />
+</Context>

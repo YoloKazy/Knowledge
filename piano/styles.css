@@ -1,0 +1,5 @@
+body{padding: 0;margin: 0;}
+section{margin: 20px auto;width: 500px;text-align: center;border: 1px solid #ddd;padding: 1em;}
+section div.tecla{display: inline-block; border: 1px solid black;width: 50px;height: 300px;padding: 0;margin: 0;vertical-align: top;}
+section div.tecla.mediotono{background: black;height: 200px;position: absolute;
+    margin-left: -25px;}

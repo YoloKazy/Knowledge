@@ -1,0 +1,22 @@
+.lista-estrellas {
+	display: inline-block;
+	direction: rtl;
+}
+
+.estrella {
+	background: url(./imgs/estrella.png) no-repeat;
+	padding: 10px;
+	background-size: contain;
+}
+
+.estrella.punto {
+	background: url(./imgs/estrella_full.png) no-repeat;
+	padding: 10px;
+	background-size: contain;
+}
+
+.estrella.punto ~ .estrella {
+	background: url(./imgs/estrella_full.png) no-repeat;
+	padding: 10px;
+	background-size: contain;
+}
