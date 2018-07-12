@@ -1,0 +1,13 @@
+<section>
+  <p>
+    <input type="text" [(ngModel)]="valorVar"> {{valorVar}}
+  </p>
+  <ul>
+    <li *ngFor="let aitem of items | itemsfilter:valorVar">
+      <span>[{{aitem.pid}}]</span>
+      <span>{{aitem.nombre}}</span>
+      <span>{{aitem.precio}}€</span>
+      <span><button (click)="addItem(aitem)">Add</button></span>
+    </li>
+  </ul>
+</section>

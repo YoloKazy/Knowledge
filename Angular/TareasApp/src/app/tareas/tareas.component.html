@@ -1,0 +1,20 @@
+<div>
+  <h2>Tareas</h2>
+  <p>
+    <input type="text" [(ngModel)]="filtro" >
+  </p>
+  <table (mouseover)="changeBack()" [class]="backClass">
+    <tr>
+      <th>ID</th>
+      <th>DESCRIPCION</th>
+      <th>TIEMPO</th>
+      <th>PROYECTO</th>
+    </tr>
+    <tr *ngFor="let unaT of tareas | filtrador:filtro:'descripcion'">
+      <td >{{unaT.tid}}</td>
+      <td ><a [routerLink]="['/tareas/',unaT.tid]">{{unaT.descripcion}}</a></td>
+      <td >{{unaT.duracion}}</td>
+      <td >{{getProjectName(unaT.proyecto)}}</td>
+    </tr>
+  </table>
+</div>

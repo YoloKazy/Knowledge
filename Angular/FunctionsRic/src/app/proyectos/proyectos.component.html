@@ -1,0 +1,16 @@
+<div>
+  <h2>Proyectos</h2>
+  <p>
+    <input type="text" [(ngModel)]="filtro" >
+  </p>
+  <table>
+    <tr>
+      <th>ID</th>
+      <th>TITULO</th>
+    </tr>
+    <tr *ngFor="let unProj of proyectos| filtrador:filtro:'titulo'">
+      <td>{{unProj.pid}}</td>
+      <td>{{unProj.titulo}}</td>
+    </tr>
+  </table>
+</div>

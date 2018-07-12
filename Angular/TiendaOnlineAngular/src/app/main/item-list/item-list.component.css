@@ -1,0 +1,3 @@
+li{background: lightblue; margin: 10px; list-style: none;padding: 10px;}
+li > span {margin:0 10px;}
+button{font-size: 0.8em; color: white; background: orangered; border:none;padding: 5px 10px; float: right;}
